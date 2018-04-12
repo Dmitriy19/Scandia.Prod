@@ -12,7 +12,7 @@
 <body>
 <div class="wrapper">
     <div class="content">
-        <header>
+        <header class="hidden-xs">
             <div class="overlay">
                 <div class="centering-menu">
                     <nav class="overlayMenu">
@@ -27,9 +27,25 @@
                 </div>
             </div>
             <div class="in-viewport-animation menu-circle">
-                <div class="navBurger" role="navigation" id="navToggle"></div>
+                <div class="navBurger navToggle" role="navigation"></div>
             </div>
         </header>
+        <div class="overlay hidden-sm hidden-md hidden-lg">
+            <div class="centering-menu">
+                <nav class="overlayMenu">
+                    <ul role="menu">
+                        <li><a href="#" role="menuitem">case studies</a></li>
+                        <li><a href="slider.html" role="menuitem">why umbraco</a></li>
+                        <li><a href="#" role="menuitem">resources</a></li>
+                        <li><a href="About-Scandia.html" role="menuitem">about us</a></li>
+                        <li><a href="#" role="menuitem">contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="in-viewport-animation menu-circle  hidden-sm hidden-md hidden-lg">
+            <div class="navBurger navToggle" role="navigation"></div>
+        </div>
         <section class="main-baner">
             <div class="container">
                 <div class="row">
